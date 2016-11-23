@@ -45,4 +45,11 @@ Run security check to check npm packages `nsp check`
 * ways to disable linters
   * /* eslint-disable ${rule} */
   * // eslint-disable-line ${rule}
-** dash dash pass the param to the other script e.g. `npm run lint -- --watch` 
+** dash dash pass the param to the other script e.g. `npm run lint -- --watch`
+
+#### Cache busting
+ - Config server to send headers to not to request JS until it expires
+ - Use Md5 hash to add hash to name of JS file. Hash will only change if the code changes
+
+### Extract and minify css  
+- 
